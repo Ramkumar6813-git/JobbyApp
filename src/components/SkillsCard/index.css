@@ -1,0 +1,16 @@
+.skill-list-item {
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 22px;
+}
+.skill-image {
+  width: 50px;
+  margin-right: 15px;
+}
+.image-name {
+  color: #ffffff;
+  font-weight: 600;
+}
