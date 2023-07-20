@@ -13,6 +13,7 @@
 }
 .logo-url {
   width: 50px;
+  height: 55px;
 }
 .job-details {
   display: flex;
@@ -22,7 +23,7 @@
 .company-title {
   color: #ffffff;
   font-size: 20px;
-  margin-bottom: 5px;
+  margin-bottom: 0;
 }
 .rating-container {
   display: flex;
@@ -30,8 +31,7 @@
   text-align: center;
 }
 .rating-count {
-  color: #ffffff;
-  margin-left: 5px;
+  color: red;
 }
 .job-location-details {
   display: flex;
