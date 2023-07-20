@@ -23,18 +23,18 @@ const SimilarJobItem = props => {
           alt="similar job company logo"
         />
         <div className="job-details">
-          <h1 className="company-title">{title}</h1>
+          <h1 className="company-title-name">{title}</h1>
           <div className="rating-container">
             <AiFillStar className="star-icon" color="#fbbf24" />
             <p className="rating-count">{rating}</p>
           </div>
         </div>
       </div>
-      <hr className="line" />
+      <hr className="line-break" />
       <h1 className="description-heading">Description</h1>
       <p className="job-description">{jobDescription}</p>
       <div className="job-location-details">
-        <div className="location-description">
+        <div className="location-description-div">
           <div className="location-details-container">
             <GoLocation className="location-icon" />
             <p className="name">{location}</p>

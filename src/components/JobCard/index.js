@@ -22,7 +22,7 @@ const JobCard = props => {
         <div className="company-details-container">
           <img src={companyLogoUrl} alt="company logo" className="logo-url" />
           <div className="job-details">
-            <h1 className="company-title">{title}</h1>
+            <h1 className="company-title-name">{title}</h1>
             <div className="rating-container">
               <AiFillStar color="#fbbf24" />
               <p className="rating-count">{rating}</p>
@@ -30,7 +30,7 @@ const JobCard = props => {
           </div>
         </div>
         <div className="job-location-details">
-          <div className="location-description">
+          <div className="location-description-div">
             <div className="location-details-container">
               <HiLocationMarker className="location-icon" />
               <p className="name">{location}</p>
@@ -42,7 +42,7 @@ const JobCard = props => {
           </div>
           <p className="salary-package">{packagePerAnnum}</p>
         </div>
-        <hr className="line" />
+        <hr className="line-break" />
         <h1 className="description-heading">Description</h1>
         <p className="job-description">{jobDescription}</p>
       </li>

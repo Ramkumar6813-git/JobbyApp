@@ -14,6 +14,7 @@
 }
 .similar-job-details-container {
   display: flex;
+  padding-bottom: 10px;
 }
 .logo-url {
   width: 50px;
@@ -44,7 +45,7 @@
   align-items: center;
   text-align: center;
 }
-.location-description {
+.location-description-div {
   display: flex;
   flex-direction: row;
   padding: 15px 0px;
@@ -65,9 +66,9 @@
 .salary-package {
   color: #ffffff;
 }
-.line {
+.line-break {
   border: 1px solid #b6c5ff;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 .description-heading {
   color: #ffffff;

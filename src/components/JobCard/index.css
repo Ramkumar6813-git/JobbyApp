@@ -21,7 +21,7 @@
   padding-left: 10px;
 }
 
-.company-title {
+.company-title-name {
   color: #ffffff;
   font-size: 20px;
   margin-bottom: 0px;
@@ -44,10 +44,10 @@
   align-items: center;
   text-align: center;
 }
-.location-description {
+.location-description-div {
   display: flex;
   flex-direction: row;
-  padding: 15px 0px;
+  margin: 5px 0px 0px 0px;
 }
 .location-details-container {
   display: flex;
@@ -65,8 +65,9 @@
 .salary-package {
   color: #ffffff;
 }
-.line {
+.line-break {
   border: 1px solid #b6c5ff;
+  margin: 5px 0;
 }
 .description-heading {
   color: #ffffff;
