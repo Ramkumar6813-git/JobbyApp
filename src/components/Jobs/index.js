@@ -204,12 +204,9 @@ class Jobs extends Component {
   }
 
   changeSearchInput = event => {
-    this.setState(
-      {
-        searchInput: event.target.value,
-      },
-      this.getJobDetails,
-    )
+    this.setState({
+      searchInput: event.target.value,
+    })
   }
 
   onKeyDown = event => {

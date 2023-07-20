@@ -20,18 +20,22 @@
   flex-direction: column;
   padding-left: 10px;
 }
+
 .company-title {
   color: #ffffff;
   font-size: 20px;
-  margin-bottom: 0;
+  margin-bottom: 0px;
+  margin-top: 0px;
 }
+
 .rating-container {
   display: flex;
   align-items: center;
   text-align: center;
 }
 .rating-count {
-  color: red;
+  color: #ffffff;
+  margin-top: 0px;
 }
 .job-location-details {
   display: flex;
