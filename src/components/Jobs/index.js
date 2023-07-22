@@ -152,7 +152,7 @@ class Jobs extends Component {
   )
 
   renderLoadingView = () => (
-    <div className="profile-loader-container" data-testid="loader">
+    <div className="jobs-loader-container" data-testid="loader">
       <Loader type="ThreeDots" color="#ffffff" height="50" width="50" />
     </div>
   )
@@ -209,7 +209,7 @@ class Jobs extends Component {
     })
   }
 
-  onKeyDown = event => {
+  onEnterKey = event => {
     if (event.key === 'Enter') {
       this.getJobDetails()
     }

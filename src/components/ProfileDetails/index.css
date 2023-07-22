@@ -5,13 +5,14 @@
   align-self: flex-start;
   border-radius: 15px;
   padding: 20px;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
+
 .profile-loader-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 200px;
+  height: 200px;
 }
 .profile-logo {
   width: 50px;

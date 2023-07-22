@@ -38,12 +38,12 @@
 }
 
 .search-input {
-  border: 1px solid #f1f5f9;
+  border: 1px solid #475569;
   background-color: transparent;
   font-size: 16px;
-  padding: 6px 10px;
+  padding: 8px 10px;
   width: 100%;
-  color: #64748b;
+  color: #f1f5f9;
   outline: none;
   border-top-left-radius: 6px;
   border-bottom-left-radius: 6px;
@@ -59,7 +59,7 @@
 .heading-text {
   color: #fff;
   font-size: 22px;
-  margin: 18px 0px;
+  margin: 15px 0px;
 }
 .employment-types-list {
   list-style-type: none;
@@ -147,10 +147,15 @@
   text-align: center;
   padding-top: 30px;
 }
+
+@media (min-width: 768px) {
+  .failure-container {
+    height: 80vh;
+  }
+}
 .failure-image {
-  max-width: 450px;
-  max-height: 300px;
-  margin-bottom: 10px;
+  width: 350px;
+  margin-bottom: 20px;
 }
 .failure-heading {
   font-size: 30px;
@@ -178,20 +183,43 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding-top: 30px;
 }
+@media (min-width: 768px) {
+  .no-jobs-container {
+    height: 80vh;
+  }
+}
+
 .no-jobs-image {
-  max-width: 450px;
-  max-height: 300px;
-  margin-bottom: 10px;
+  width: 300px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+@media (min-width: 768px) {
+  .no-jobs-image {
+    width: 400px;
+  }
 }
 .no-jobs-heading {
-  max-width: 450px;
-  max-height: 300px;
+  font-size: 28px;
+  color: #cbd5e1;
   margin-bottom: 10px;
 }
 .no-jobs-description {
   color: #cbd5e1;
-  font-size: 14px;
+  font-size: 15px;
   margin-bottom: 10px;
+}
+
+.jobs-loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+@media (min-width: 768px) {
+  .jobs-loader-container {
+    height: 80vh;
+  }
 }
