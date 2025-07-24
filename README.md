@@ -1,4 +1,4 @@
-In this project, let's build a **Jobby App** by applying the concepts we have learned till now.
+# Jobby App - A Job Searching Platform
 
 ### Refer to videos below:
 
